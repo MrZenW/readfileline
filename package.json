@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zenboss/readfileline/issues"
   },
-  "homepage": "https://github.com/zenboss/readfileline"
+  "homepage": "https://github.com/zenboss/readfileline",
+  "directories": {
+    "test": "test"
+  }
 }
