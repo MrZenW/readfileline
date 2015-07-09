@@ -1,10 +1,10 @@
 {
   "name": "readfileline",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "read file line by line",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "readfile",
     "fileline"
   ],
-  "author": "zenboss",
+  "author": "zenboss <zenyes@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zenboss/readfileline/issues"
