@@ -13,4 +13,4 @@ test_script:
   - node --version
   - npm --version
   - npm test
-version: "2.0.{build}"
+version: "2.0.0"
