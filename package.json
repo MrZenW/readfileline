@@ -1,6 +1,6 @@
 {
   "name": "readfileline",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "read file line by line",
   "main": "index.js",
   "scripts": {
