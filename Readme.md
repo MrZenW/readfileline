@@ -11,8 +11,6 @@ Read file line by line for node
 # How to use
 
 ``` javascript
-
-
 var fl = require('readfileline');
 var fileContents = [];
 fl(__dirname+'/data.txt',function(lineData,lineNum){
@@ -54,5 +52,4 @@ fl(__dirname+'/data.txt',function(lineData,lineNum){
     	console.log('read file line has an error:'+err.message);
     }
 });
-
 ```
