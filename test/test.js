@@ -30,16 +30,18 @@ fl(__dirname+'/nofile.txt',function(lineData,lineNum){
 
 var fileContent2 = [];
 fl(__dirname+'/data.txt',function(lineData,lineNum,rl){
-    
+    // console.log(lineNum)
+    fileContent2.push(lineData);
+    // console.log(fileContent2.length);
     if(lineNum==5){
         rl.close()
         return;
     }
-    fileContent2.push(lineData);
+
 
 },function(err,eventType,lineNum){
 
-    assert.equal(fileContent2.length,4);
+    assert.equal(fileContent2.length,5);
     assert.equal(lineNum,5);
 
 });
