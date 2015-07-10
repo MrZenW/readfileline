@@ -30,7 +30,7 @@ fl(__dirname+'/nofile.txt',function(lineData,lineNum){
 
 var fileContent2 = [];
 fl(__dirname+'/data.txt',function(lineData,lineNum,rl){
-    // console.log(lineNum)
+    // console.log(lineNum,lineData)
     fileContent2.push(lineData);
     // console.log(fileContent2.length);
     if(lineNum==5){
