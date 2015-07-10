@@ -1,6 +1,6 @@
 {
   "name": "readfileline",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "read file line by line",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,12 @@
     "readline",
     "readfile",
     "fileline"
+  ],
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js",
+    "lib/"
   ],
   "author": "zenboss <zenyes@gmail.com>",
   "license": "MIT",
